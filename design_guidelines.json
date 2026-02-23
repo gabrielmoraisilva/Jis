@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "name": "JIS Terraplanagem",
+    "tone": "Industrial, Professional, Robust, Reliable",
+    "archetype": "The Performance Pro",
+    "theme_mode": "light"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Barlow Condensed, sans-serif",
+      "body": "Inter, sans-serif"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold uppercase tracking-tight",
+      "h2": "text-4xl md:text-5xl font-bold uppercase tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold uppercase",
+      "body": "text-base md:text-lg leading-relaxed text-slate-600"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');"
+    ]
+  },
+  "colors": {
+    "primary": "#0f172a",
+    "secondary": "#f97316",
+    "neutral": "#374151",
+    "background": "#ffffff",
+    "background_alt": "#f8fafc",
+    "text": {
+      "primary": "#0f172a",
+      "secondary": "#475569",
+      "inverse": "#ffffff"
+    },
+    "palette": {
+      "slate": {
+        "50": "#f8fafc",
+        "100": "#f1f5f9",
+        "200": "#e2e8f0",
+        "300": "#cbd5e1",
+        "400": "#94a3b8",
+        "500": "#64748b",
+        "600": "#475569",
+        "700": "#334155",
+        "800": "#1e293b",
+        "900": "#0f172a",
+        "950": "#020617"
+      },
+      "orange": {
+        "50": "#fff7ed",
+        "100": "#ffedd5",
+        "200": "#fed7aa",
+        "300": "#fdba74",
+        "400": "#fb923c",
+        "500": "#f97316",
+        "600": "#ea580c",
+        "700": "#c2410c",
+        "800": "#9a3412",
+        "900": "#7c2d12",
+        "950": "#431407"
+      }
+    }
+  },
+  "layout": {
+    "container": "container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl",
+    "section_spacing": "py-16 md:py-24",
+    "grid_gap": "gap-8 md:gap-12",
+    "border_radius": "rounded-sm"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-orange-500 hover:bg-orange-600 text-white font-bold uppercase tracking-wide rounded-sm px-8 py-4 transition-all hover:translate-y-[-2px] shadow-lg hover:shadow-orange-500/20",
+      "secondary": "bg-slate-900 hover:bg-slate-800 text-white font-bold uppercase tracking-wide rounded-sm px-8 py-4 transition-all hover:translate-y-[-2px] shadow-lg",
+      "outline": "border-2 border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white font-bold uppercase tracking-wide rounded-sm px-8 py-4 transition-all"
+    },
+    "cards": {
+      "service": "bg-white p-8 rounded-sm shadow-md border-t-4 border-orange-500 hover:shadow-xl transition-shadow group relative overflow-hidden",
+      "feature": "bg-slate-50 p-6 rounded-sm border border-slate-200 hover:border-orange-500/50 transition-colors"
+    },
+    "inputs": {
+      "base": "flex h-12 w-full rounded-sm border border-slate-300 bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-slate-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "images": {
+    "hero_bg": "https://images.pexels.com/photos/25559747/pexels-photo-25559747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "services": {
+      "terraplanagem": "https://images.unsplash.com/photo-1770175960229-dd21e8cf950a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwyfHxoZWF2eSUyMG1hY2hpbmVyeSUyMGV4Y2F2YXRvciUyMGNvbnN0cnVjdGlvbiUyMHNpdGV8ZW58MHx8fHwxNzcxODg0ODMyfDA&ixlib=rb-4.1.0&q=85",
+      "pavimentacao": "https://images.pexels.com/photos/34338544/pexels-photo-34338544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "barragens": "https://images.unsplash.com/photo-1634580871198-88ac1fec9114?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwzfHxyb2FkJTIwcGF2aW5nJTIwYXNwaGFsdCUyMHJvbGxlciUyMHN1cnZleW9yJTIwdG9wb2dyYXBoeSUyMGRhbSUyMGNvbnN0cnVjdGlvbnxlbnwwfHx8fDE3NzE4ODQ4NDF8MA&ixlib=rb-4.1.0&q=85",
+      "topografia": "https://images.unsplash.com/photo-1709330181144-c7e6f518cb88?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHw0fHxyb2FkJTIwcGF2aW5nJTIwYXNwaGFsdCUyMHJvbGxlciUyMHN1cnZleW9yJTIwdG9wb2dyYXBoeSUyMGRhbSUyMGNvbnN0cnVjdGlvbnxlbnwwfHx8fDE3NzE4ODQ4NDF8MA&ixlib=rb-4.1.0&q=85"
+    },
+    "portfolio_grid": [
+      "https://images.unsplash.com/photo-1761504537447-e39a3085d697?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHw0fHxoZWF2eSUyMG1hY2hpbmVyeSUyMGV4Y2F2YXRvciUyMGNvbnN0cnVjdGlvbiUyMHNpdGV8ZW58MHx8fHwxNzcxODg0ODMyfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/12274274/pexels-photo-12274274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.unsplash.com/photo-1759950345011-ee5a96640e00?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwxfHxoZWF2eSUyMG1hY2hpbmVyeSUyMGV4Y2F2YXRvciUyMGNvbnN0cnVjdGlvbiUyMHNpdGV8ZW58MHx8fHwxNzcxODg0ODMyfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1768117269305-58ad768e423e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwzfHxoZWF2eSUyMG1hY2hpbmVyeSUyMGV4Y2F2YXRvciUyMGNvbnN0cnVjdGlvbiUyMHNpdGV8ZW58MHx8fHwxNzcxODg0ODMyfDA&ixlib=rb-4.1.0&q=85"
+    ],
+    "logo": "https://customer-assets.emergentagent.com/job_8c9eed70-9cde-464b-9d25-e788e71c6da2/artifacts/5psnjy7o_Logo%20JIS%20%281%29.jpg.jpeg"
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "stroke-width-1.5 w-12 h-12 text-orange-500 mb-4"
+  },
+  "instructions_to_main_agent": [
+    "Use 'Barlow Condensed' for all headings to achieve the industrial look. Import it from Google Fonts in index.css.",
+    "The Hero section must use the 'hero_bg' image with a dark overlay (bg-slate-900/70) to ensure text readability.",
+    "Implement the 'WhatsApp Floating Button' as a fixed element bottom-right (z-50) with a green background (#25D366).",
+    "The 'Contact Form' must construct a WhatsApp URL: `https://wa.me/5534999291289?text=Olá, gostaria de um orçamento para [Serviço]...`.",
+    "Use alternating backgrounds for sections: White (#ffffff) -> Slate-50 (#f8fafc) -> White.",
+    "Ensure the 'Sobre' (About) section highlights the stats (+200 clients, etc.) with large bold numbers in Orange.",
+    "Do NOT use standard rounded corners (rounded-lg/xl). Stick to 'rounded-sm' or 'rounded-none' for a construction/industrial feel.",
+    "Mobile Responsiveness: Stack columns on mobile, but ensure images are not too tall (max-h-[50vh]).",
+    "Use Shadcn UI components but override the default 'rounded-md' to 'rounded-sm' via classNames or theme config."
+  ],
+  "universal_guidelines": [
+    "Do not use generic centered layouts. Use grid-cols-1 md:grid-cols-2 for variety.",
+    "Use data-testid attributes on all interactive elements.",
+    "Ensure contrast ratios meet accessibility standards (Orange text on white might need to be darker, check contrast).",
+    "Add hover states to all cards (lift up + shadow increase)."
+  ]
+}
