@@ -1,34 +1,82 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* JIS Terraplanagem - Custom Styles */
+
+.App {
+    min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
+/* Smooth section transitions */
+section {
+    scroll-margin-top: 80px;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+@keyframes pulse-ring {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 2.25rem !important;
+        line-height: 1.1 !important;
+    }
+    
+    h2 {
+        font-size: 1.875rem !important;
+    }
+}
+
+/* Image loading optimization */
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Custom selection color */
+::selection {
+    background-color: #f97316;
     color: white;
 }
 
-.App-link {
-    color: #61dafb;
+/* Focus states for accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid #f97316;
+    outline-offset: 2px;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
     }
 }
