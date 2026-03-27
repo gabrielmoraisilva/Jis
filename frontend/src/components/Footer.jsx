@@ -134,9 +134,16 @@ export const Footer = () => {
                   @jis_servicos
                 </a>
               </li>
-              <li className="flex items-center gap-3 text-slate-400 text-sm">
-                <MapPin className="w-4 h-4 text-orange-500" />
-                <span>Triângulo Mineiro, MG</span>
+              <li className="flex items-start gap-3 text-slate-400 text-sm">
+                <MapPin className="w-4 h-4 text-orange-500 mt-0.5 flex-shrink-0" />
+                <a 
+                  href="https://maps.google.com/?q=Av.+Ênio+Gonçalves,+226+-+Santa+Juliana,+MG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-orange-500 transition-colors"
+                >
+                  Av. Ênio Gonçalves, 226 - Santa Juliana, MG
+                </a>
               </li>
             </ul>
           </div>

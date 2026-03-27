@@ -43,9 +43,9 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    label: "Região",
-    value: "Triângulo Mineiro, MG",
-    href: null,
+    label: "Endereço",
+    value: "Av. Ênio Gonçalves, 226 - Santa Juliana, MG",
+    href: "https://maps.google.com/?q=Av.+Ênio+Gonçalves,+226+-+Santa+Juliana,+MG",
   },
 ];
 
@@ -172,12 +172,18 @@ Gostaria de mais informações e um orçamento. Aguardo retorno!`;
               ))}
             </div>
 
-            {/* Map Placeholder */}
-            <div className="bg-slate-200 rounded-sm h-48 flex items-center justify-center">
-              <div className="text-center text-slate-500">
-                <MapPin className="w-8 h-8 mx-auto mb-2" />
-                <p className="text-sm">Triângulo Mineiro, MG</p>
-              </div>
+            {/* Map */}
+            <div className="bg-slate-200 rounded-sm h-48 overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.5!2d-47.5294!3d-19.3103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE4JzM3LjEiUyA0N8KwMzEnNDUuOCJX!5e0!3m2!1spt-BR!2sbr!4v1"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização JIS Terraplanagem"
+              />
             </div>
           </div>
 
