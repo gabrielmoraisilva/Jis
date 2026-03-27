@@ -37,7 +37,7 @@ export const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 text-orange-400 px-4 py-2 rounded-sm mb-6">
             <span className="w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
-            <span className="text-sm font-medium uppercase tracking-wide">+15 Anos de Experiência</span>
+            <span className="text-sm font-medium uppercase tracking-wide">+20 Anos de Experiência</span>
           </div>
 
           {/* Title */}

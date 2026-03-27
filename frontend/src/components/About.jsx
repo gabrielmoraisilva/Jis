@@ -13,7 +13,7 @@ const stats = [
   },
   {
     icon: Award,
-    number: "15+",
+    number: "20+",
     label: "Anos de Experiência",
   },
 ];
