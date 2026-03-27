@@ -1,6 +1,6 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
 
-const HERO_BG = "https://images.pexels.com/photos/25559747/pexels-photo-25559747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+const HERO_BG = "https://customer-assets.emergentagent.com/job_jis-asfalto/artifacts/mahmypeo_Escavadeira%201%20%281%29.JPEG";
 const WHATSAPP_NUMBER = "5534999291289";
 
 export const Hero = () => {
