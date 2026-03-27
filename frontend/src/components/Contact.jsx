@@ -11,7 +11,7 @@ import {
   SelectValue,
 } from "../components/ui/select";
 
-const WHATSAPP_NUMBER = "5534999291289";
+const WHATSAPP_NUMBER = "5534999128938";
 
 const services = [
   "Topografia",
@@ -26,7 +26,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Telefone",
-    value: "(34) 9 9929-1289",
+    value: "(34) 9 9912-8938",
     href: "tel:+5534999291289",
   },
   {

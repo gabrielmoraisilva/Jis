@@ -1,7 +1,7 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
 
 const HERO_BG = "https://customer-assets.emergentagent.com/job_jis-asfalto/artifacts/mahmypeo_Escavadeira%201%20%281%29.JPEG";
-const WHATSAPP_NUMBER = "5534999291289";
+const WHATSAPP_NUMBER = "5534999128938";
 
 export const Hero = () => {
   const handleQuoteClick = () => {

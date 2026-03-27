@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
 const LOGO_URL = "https://customer-assets.emergentagent.com/job_8c9eed70-9cde-464b-9d25-e788e71c6da2/artifacts/5psnjy7o_Logo%20JIS%20%281%29.jpg.jpeg";
-const WHATSAPP_NUMBER = "5534999291289";
+const WHATSAPP_NUMBER = "5534999128938";
 
 const navItems = [
   { label: "Início", href: "#inicio" },

@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5534999291289";
+const WHATSAPP_NUMBER = "5534999128938";
 
 export const WhatsAppButton = () => {
   const handleClick = () => {

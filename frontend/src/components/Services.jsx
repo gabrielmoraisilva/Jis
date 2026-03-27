@@ -1,6 +1,6 @@
 import { Compass, Mountain, Route, Droplets, ArrowRight } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5534999291289";
+const WHATSAPP_NUMBER = "5534999128938";
 
 const services = [
   {
